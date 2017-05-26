@@ -1,0 +1,73 @@
+#docker files
+/docker/jenkins
+
+# zend studio files
+/.buildpath
+/.project
+/.settings/
+
+#composer directory
+/vendor/
+
+#phpstorm
+/.idea
+
+# zend debugger file
+/dummy.php
+
+# ignore codeception output and machine-generated files
+/tests/_output
+/tests/_support/_generated
+
+
+/deployment.properties
+/deployment.xml
+
+
+# ingnore mysql schema builder bak file
+*.bak
+
+# ignore gedit temp files
+*.*~
+
+# Octocat's Idea's on what to ignore
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+!tests/_data/**/*.sql
+# *.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+# created by SSH procedures when pulling DBs for testing purposes
+/.ssh
